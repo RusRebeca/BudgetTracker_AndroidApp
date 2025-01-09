@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fundal3"
+    tools:context=".Pagina_setari">
+
+    <Button
+        android:id="@+id/venit_nou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Modificare venit lunar"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/editare_venit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.311"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+
+    <Button
+        android:id="@+id/limita"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Introducere limita cheltuieli"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:drawableLeft="@drawable/limita_cheltuieli"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:ignore="HardcodedText,RtlHardcoded" />
+</androidx.constraintlayout.widget.ConstraintLayout>
